@@ -22,6 +22,7 @@
   outline-color: white;
   position: relative; bottom: 1.2rem; left: 10rem;
   font-size: 20px;
+  border-radius: 10px;
 }
 .writing{
   background-color: #00e1ff;
@@ -30,6 +31,7 @@
   outline-color: white;
   position: relative; top: 132px; left: -21.6rem;
   font-size: 20px;
+  border-radius: 10px;
 }
 .email{
   background-color: #00e1ff;
@@ -38,6 +40,7 @@
   outline-color: white;
   position: relative; top: 60px; left: -5.8rem;
   font-size: 20px;
+  border-radius: 10px;
 }
 .message{
   background-color: #00e1ff;
@@ -47,6 +50,7 @@
 outline-color: white;
   position: relative; top: 10rem; left: -20rem;
   font-size: 20px;
+  border-radius: 10px;
 }
 .btnSubmit{
   background-color: #00e1ff;
@@ -55,6 +59,7 @@ outline-color: white;
   position: relative; top: 13rem; left: -52.8rem;
   outline-color: white;
   font-size: 20px;
+  border-radius: 10px;
 }
 .p-contact{
   margin-left: 650px;
@@ -62,4 +67,64 @@ outline-color: white;
   font-family: Verdana;
   font-size: 30px;
   text-decoration: overline underline;
+}
+
+.YouTubeLogo{
+  position: relative; left: 38rem;
+}
+
+.TwitchLogo{
+  position: relative;left: 47.7rem;
+}
+
+.TwitterLogo{
+  position: relative; left: 58rem;
+}
+
+.DiscordLogo{
+  position: relative; left: 66rem;
+}
+
+@media only screen and (max-width: 958px){
+
+  .message{
+    position: relative; left: 15rem;
+  }
+  .name{
+    position: relative; top: 13rem;
+  }
+
+  .email{
+    position: relative; top: 17.5rem;
+  }
+
+  .writing{
+    position: relative; top: 22rem;
+  }
+
+  .YouTubeLogo{
+    position: relative; top: 11rem; left: 19rem;
+  }
+
+  .TwitterLogo{
+    position: relative; top: 3rem; left: 27rem;
+  }
+
+  .DiscordLogo{
+    position: relative; top: 0.5rem; left: 45rem;
+  }
+
+  .TwitchLogo{
+    position: relative; top:8rem; left: 35rem;
+  }
+
+  .p-contact{
+    position: relative; right: 28rem; top: 10rem;
+    padding-left: 0rem;
+    font-size: 30px;
+  }
+
+  .btnSubmit{
+    position: relative; left: -17.8rem; top: 12rem;
+  }
 }

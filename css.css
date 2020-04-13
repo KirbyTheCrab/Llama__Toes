@@ -1,3 +1,7 @@
+@media only screen and (max-width: 958px){
+
+}
+
 :root {
   font-size: 16px;
   font-family: 'Open Sans';
@@ -125,34 +129,6 @@ main {
 .navbar:hover .logo svg {
   transform: rotate(-180deg);
 }
-
-/* Small screens */
-@media only screen and (max-width: 600px) {
-  .navbar {
-    bottom: 0;
-    width: 100vw;
-    height: 5rem;
-  }
-
-  .logo {
-    display: none;
-  }
-
-  .navbar-nav {
-    flex-direction: row;
-  }
-
-  .nav-link {
-    justify-content: center;
-  }
-
-  main {
-    margin: 0;
-  }
-}
-
-/* Large screens */
-@media only screen and (min-width: 600px) {
   .navbar {
     top: 0;
     width: 5rem;
@@ -198,8 +174,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1350px;
-  position: relative; top: 3rem;
+  position: relative; top: 3rem; left: 34.5rem;
   margin: auto;
 }
 
@@ -256,9 +231,6 @@ img {vertical-align: middle;}
   from {opacity: .4}
   to {opacity: 1}
 }
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
 
@@ -267,26 +239,31 @@ img {vertical-align: middle;}
   padding-top: 10rem;
 }
 
+.dot{
+  position: relative; top: 2rem;
+  background: linear-gradient(10deg, #fe00d2, #00e1ff)
+}
+
 .gridimg1{
-  position: relative; top: 6rem;
-  padding-left: 17rem;
+  position: relative; top: 6rem; left: 18rem;
 
 }
 
 .gridimg2{
-  position: static;
-  padding-left: 72rem;
+  position: relative ; top: 10rem; left: 18rem;
+
   float: left;
 }
 
 .gridimg3{
-  padding-left: 17rem;
-  padding-top: 50px
+  position: relative; top: 10rem; left: 18rem;
+
+
 }
 .TEXTBRIDGE{
   font-size: 20px;
   color: white;
-  padding-right: 20rem;
+  padding-right: 90rem;
 }
 
 }
@@ -309,14 +286,15 @@ img {vertical-align: middle;}
 .TEXTBRIDGE1{
   font-size: 20px;
   color: white;
-  padding-right: 60rem;
+  padding-right: 90rem;
+
 }
 
 
 .TEXTCITY{
   font-size: 20px;
   color: white;
-  padding-right: 60rem;
+  padding-right: 90rem;
 }
 
 .Hillsimg{
@@ -335,84 +313,80 @@ img {vertical-align: middle;}
 
 
 .Grid1{
-  position: relative; top: 10rem; left: 17rem;
+  position: relative; top: 10rem; left: 18rem;
 }
 
 
 .Grid2{
 
-position: relative; top: 9rem; left: 17rem;
+position: relative; top: 9rem; left: 18rem;
 }
 
 .Grid3{
-position: relative; bottom: 51.2rem; left: 60rem;
+position: relative; bottom: 51.2rem; left: 70rem;
 }
 
 .Grid4{
-position: relative; bottom: 52.2rem; left: 60rem;
+position: relative; bottom: 52.2rem; left: 70rem;
 }
 
 .active{
   background-color: White;
 }
 
-.slideshow-container{
-  position: relative;left: 0.2rem;
-}
-
-
 .aboutusIMG{
   position: relative; top: 50px;
   border-radius: 80%;
 }
 
-.aboutusTxt{
-  position: relative; top: 10rem;
-  padding-left: 16rem;
-  padding-right: 60rem;
-  color: white;
-}
+
 
 .AboutUsIMG1{
   max-width: 300px;
-  position: relative; bottom: 3rem;
+  position: relative; top: 10rem; left: 20rem;
 }
 
-.aboutus{
+.AboutUs{
   text-decoration: underline overline;
-  position: relative; bottom: 20rem;
+  position: fixed; top: 25rem; left: 20rem;
+  color: white;
+  font-size: 30px;
 }
 
 .aboutusLorem{
-  position: relative; bottom: 8rem;
+  position: fixed; left: 20rem; top: 44rem;
+  color: white;
+  font-size: 20px;
+
 }
 
 
 .LlamaLogo{
   position: relative; left: 50rem;
+  padding-left: 5rem;
   border-radius: 40px;
   outline-color: black;
 }
 
 .YouTubeLogo{
   max-width: 70px;
-  position: relative; bottom: -20rem; left: 38rem;
+  position: relative; bottom: -20rem; left: 45rem;
 }
 
 .TwitchLogo{
   max-width: 70px;
-  position: relative; bottom: -16.4rem; ;left: 48rem;
+  position: relative; bottom: -16.4rem; ;left: 55rem;
 }
 
 .TwitterLogo{
   max-width: 70px;
-  position: relative; bottom:-12rem; left: 58rem;
+  position: relative; bottom:-12rem; left: 65rem;
   text-decoration: none;
 }
 
 .DiscordLogo{
   max-width: 70px;
-  position: relative; bottom: -9.3rem; left:67rem;
+  position: relative; bottom: -9.3rem; left:75rem;
 
 }
 
@@ -436,4 +410,19 @@ position: relative; bottom: 52.2rem; left: 60rem;
   max-width: 70px;
   position: relative; bottom: -39rem; left:67rem;
 
+}
+
+.TwitterFeed{
+  max-width: 700px;
+  position: relative; left: 35rem;
+  padding-top: 100px;
+
+}
+
+.SocialMedia{
+  padding-bottom: 578px;
+}
+
+.slideshow-container{
+  position: relative; left: 18rem;
 }
