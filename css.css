@@ -1,6 +1,4 @@
-@media only screen and (max-width: 958px){
 
-}
 
 :root {
   font-size: 16px;
@@ -240,7 +238,7 @@ img {vertical-align: middle;}
 }
 
 .dot{
-  position: relative; top: 2rem;
+  position: relative; top: 2rem; left: 6rem;
   background: linear-gradient(10deg, #fe00d2, #00e1ff)
 }
 
@@ -425,4 +423,147 @@ position: relative; bottom: 52.2rem; left: 70rem;
 
 .slideshow-container{
   position: relative; left: 18rem;
+}
+
+@media only screen and (max-width: 375px){
+
+  .slideshow-container{
+    display: none;
+  }
+
+  .dot{
+    display: none;
+  }
+
+  .LlamaLogo{
+    position: relative;left: 5rem;
+    width: 200px;
+  }
+
+  .firstpiconhome{
+    width: 180px;
+    position: relative; left: -8rem;
+  }
+
+  .TEXTCITY{
+    font-size: 15px;
+    padding-right: 12rem;
+    position: relative; left: -8rem;
+}
+
+
+  .Titleimg{
+  font-size: 20px;
+  position: relative; left: -8rem;
+  padding-right: 10rem;}
+
+  .navbar{
+    width: 10px;
+  }
+
+  .Hillsimg{
+  width: 180px;
+  position: relative;left: -8rem;
+}
+
+  .Bridgeimg{
+    width: 180px;
+    position: relative; left: -8rem;
+  }
+
+  .TEXTBRIDGE{
+    font-size: 15px;
+    padding-right: 12rem;
+    position: relative; left: -8rem;
+  }
+
+  .TEXTBRIDGE1{
+    font-size: 15px;
+    padding-right: 12rem;
+    position: relative; left: -8rem;
+  }
+
+  .Grid1{
+    display: none;
+  }
+
+  .Grid2{
+    display: none;
+  }
+
+  .Grid3{
+    display: none;
+  }
+
+  .Grid4{
+    display: none;
+  }
+
+  .YoutubeLogo{
+    position: relative;left: 1rem; bottom: -19rem;
+    width: 60px;
+  }
+
+.TwitchLogo{
+    position: relative;left: 7rem; bottom: -15.5rem;
+    width: 60px;
+  }
+
+.TwitterLogo{
+  position: relative;left: 12rem; bottom: -11.5rem;
+  width: 70px;
+}
+
+.DiscordLogo{
+  position: relative;left: 17.5rem;
+  width: 70px;
+}
+
+.TwitterFeed{
+  width: 100px;
+  position: relative;left: 10rem;
+  padding: none;
+}
+
+.YoutubeSoc{
+display: none;
+
+}
+
+.TwitchSoc{
+display: none;
+
+}
+
+.TwitterSoc{
+  display: none;
+}
+
+.DiscordSoc{
+display: none;
+}
+
+.aboutusIMG{
+  width: 200px;
+  position: relative;left: 3rem;
+}
+
+.AboutUsIMG1{
+  width: 200px;
+  position: relative;left: 9rem;
+}
+
+.AboutUs{
+  font-size: 20px;
+  position: relative;left: 9rem; top: -1rem;
+}
+
+.aboutusLorem{
+  font-size: 15px;
+  position: relative;left: 9rem; top: 7rem;
+}
+
+.body{
+  margin: 0;
+  padding: 0;
 }
