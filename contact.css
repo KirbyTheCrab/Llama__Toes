@@ -168,6 +168,8 @@ outline-color: white;
   .DiscordLogo{
     position: relative;left: 19rem; top :10rem;
   }
-
-
+    
+    .btnsubmit{
+        position: relative; left 0.5;
+  }
 }
